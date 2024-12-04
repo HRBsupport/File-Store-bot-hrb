@@ -1,10 +1,10 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+  API_ID = int(os.environ.get("API_ID", "16024367"))
+  API_HASH = os.environ.get("API_HASH", "e4d264f7d2608c48102500bff08f5b9c")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "8000080934:AAEQYuUUfEM91Yn2OMqSP3flExNQXW3TUZU")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "FreeFStoreBot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
