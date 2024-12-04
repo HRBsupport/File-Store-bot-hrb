@@ -8,7 +8,7 @@ class Config(object):
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "HonorsTeam"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
@@ -25,18 +25,18 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
 │
-├🔸 Language: [Python 3](https://www.python.org)
+├🔸 official Support Team : [<a href='https://t.me/HRBsupport_official'>ʜʀʙᴛᴇᴀᴍ ꜱᴜᴘᴘᴏʀᴛ ᴜᴘᴅᴀᴛᴇ]
 │
-├🔹 Library: [Pyrogram](https://docs.pyrogram.org)
+├🔹 official Support : [<a href='https://t.me/HRBsupport'>ʜʀʙᴛᴇᴀᴍ ꜱᴜᴘᴘᴏʀᴛ]
 │
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [HolyRetriBution Team](https://telegram.me/HonorsTeam)
  
- I am Super noob Please Support My Hard Work.
+ hello i'm Free File Store Robot By : @HonorsTeam.
 
-[Donate Me](https://t.me/KingVj01)
+[bot error?, please contact team)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
